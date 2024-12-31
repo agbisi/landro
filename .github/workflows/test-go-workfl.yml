@@ -21,7 +21,7 @@ jobs:
       run: echo 'The north remembers'
 
     - name: Build
-      run: GOOS=android GOARCH=arm go build -v ./main.go
+      run: go build -v ./main.go
 
     - name: Test
-      run: echo 'done!'
+      run: file ./main && ./main
