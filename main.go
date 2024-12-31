@@ -5,5 +5,5 @@ import (
 )
 
 func main(){
-  fmt.Println("When the Game is Over, the King and the Pawns return to the same box.")
+  fmt.Println("When the Game is Over, The King and the Pawns Return to the Same Box.")
 }
