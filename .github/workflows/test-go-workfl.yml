@@ -27,7 +27,7 @@ jobs:
       run: file ./main && ./main
 
     - name: Save Artifact
-      uses: actions/upload-artfact@v4
+      uses: actions/upload-artifact@v4
       with:
         name: Go build artif
         path: ./main
